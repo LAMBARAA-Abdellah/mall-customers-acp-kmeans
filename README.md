@@ -109,6 +109,7 @@ Le rapport inclut :
 from google.colab import files
 uploaded = files.upload()
 data = pd.read_csv(list(uploaded.keys())[0], sep=';')
+```python
 
 -----------------------------------------
   Abdellah Lambaraa
